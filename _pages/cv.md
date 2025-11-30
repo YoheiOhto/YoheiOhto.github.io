@@ -41,7 +41,8 @@ redirect_from:
 **主要業績（Selected Publications & Preprints）**
 ------
 
-- 特になし
+- 特になし  
+  
 <!-- <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul> -->
@@ -69,7 +70,8 @@ redirect_from:
 **教育・指導 / Teaching**
 ------
 
-- 特になし
+- 特になし  
+  
 <!-- 
 <ul>{% for post in site.teaching reversed %}
   {% include archive-single-cv.html %}

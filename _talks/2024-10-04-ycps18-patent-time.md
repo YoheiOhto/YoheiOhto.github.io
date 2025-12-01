@@ -1,16 +1,21 @@
 ---
-title: "特許情報に基づく時間軸を考慮した毒性予測の検討"
+title: "特許情報に基づく時間軸を考慮した毒性予測の検討 / Consideration of toxicity prediction incorporating temporal information from patent data"
 date: 2024-10-04
-conference: "第18回次世代を担う若手のための医療薬科学シンポジウム（YCPS18）"
+event: "第18回次世代を担う若手のための医療薬科学シンポジウム (YCPS 18)"
 location: "金沢商工会議所"
-presentation: "口頭（o-19）"
 authors:
-  - "大戸陽平"
-  - "水野忠快"
-  - "楠原洋之"
-tags: [patent, toxicity-prediction, oral]
-layout: talk
+  - "Yohei OHTO"
+  - "Tadahaya MIZUNO"
+  - "Hiroyuki KUSUHARA"
+presentation_type: "一般 (口頭) / Oral presentation"
+session: "o-19"
+link: "https://ycps.jp/18/home.html"
 ---
 
-概要: |
-  本発表では、特許情報を用いた毒性予測において時間軸を考慮する手法を提案する。特許中の発明・実施・フェーズに関する記述を時系列化し、化合物の開発履歴や公開時期を特徴量として抽出することで、毒性リスクの変化や発現タイミングに関する情報をモデルに取り入れる。
+発表概要（日本語）:
+
+特許情報から得られる時間情報を考慮した上での毒性予測手法の可能性について、初期的な検討結果を口頭発表しました。
+
+Abstract (English):
+
+Oral presentation on preliminary considerations for toxicity prediction methods that incorporate temporal information derived from patent documents.

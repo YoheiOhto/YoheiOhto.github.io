@@ -1,19 +1,23 @@
 ---
-title: "安全性評価手法の性能評価に向けた機械学習による対照化合物選定の検討"
+title: "安全性評価手法の性能評価に向けた機械学習による対照化合物選定の検討 / Selection of reference compound list with machine learning toward validation of safety assessment methods"
 date: 2024-03-30
-conference: "日本薬学会第144年会"
+event: "日本薬学会第144年会 (Pharmaceutical Society of Japan Annual Meeting 144)"
 location: "パシフィコ横浜"
-presentation: "ポスター（30P-am360S）"
 authors:
-  - "大戸陽平"
-  - "水野忠快"
-  - "吉開泰裕"
-  - "藤本紘美"
-  - "佐藤薫"
-  - "楠原洋之"
-tags: [machine-learning, safety-assessment, poster]
-layout: talk
+  - "Yohei OHTO"
+  - "Tadahaya MIZUNO"
+  - "Yasuhiro YOSHIGAI"
+  - "Hiromi FUJIMOTO"
+  - "Kaoru SATO"
+  - "Hiroyuki KUSUHARA"
+presentation_type: "一般 (ポスター) / Poster"
+session: "30P-am360S"
 ---
 
-概要: |
-  安全性評価手法の検証において、対照化合物（reference compounds）の選定は重要である。本研究では、既存データを用いた機械学習手法により、評価目的に適した対照化合物リストを自動で選定する手法を提案する。
+発表概要（日本語）:
+
+機械学習を用いて安全性評価手法の性能評価に適した対照化合物リストを選定する手法についてのポスターを発表しました。
+
+Abstract (English):
+
+Poster on selecting reference compound lists via machine learning to support validation of safety assessment methods.

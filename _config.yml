@@ -24,11 +24,11 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "大戸陽平 (Yohei Ohto)"
-  pronouns         :
-  bio              : "機械学習・バイオインフォマティクス・データ可視化を中心に研究・開発を行っています。"
-  location         : "Japan"
-  employer         : "Independent researcher"
-  uri              :
+  pronouns         : "he/him"
+  bio              : "Master student @ The University of Tokyo, Pharmaceutical Sciences"
+  location         : "Tokyo, Japan"
+  employer         : "The University of Tokyo"
+  uri              : "https://yoheiohto.github.io"
   email            : "oy826c60@gmail.com"
 
   # Academic websites (必要に応じて URL を更新してください)

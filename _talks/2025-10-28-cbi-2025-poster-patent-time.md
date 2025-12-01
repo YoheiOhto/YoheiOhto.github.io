@@ -1,16 +1,21 @@
 ---
-title: "特許情報から抽出した時間情報の妥当性とその毒性予測への応用"
+title: "Validity and application of temporal information extracted from patent information"
 date: 2025-10-28
-conference: "CBI学会2025"
+event: "CBI学会2025年大会 (CBI Society Annual Meeting 2025)"
 location: "タワーホール船堀"
-presentation: "ポスター（P04-05）"
 authors:
-  - "大戸陽平"
-  - "水野忠快"
-  - "楠原洋之"
-tags: [patent, toxicity-prediction, poster]
-layout: talk
+  - "Yohei OHTO"
+  - "Tadahaya MIZUNO"
+  - "Hiroyuki KUSUHARA"
+presentation_type: "一般 (ポスター) / Poster"
+session: "P04-05"
+link: "https://cbi-society.org/taikai/taikai25/index.html"
 ---
 
-概要: |
-  本ポスターでは、特許文献から抽出した時間情報の妥当性評価と、それを用いた毒性予測への応用を報告する。特許中の記述を自動的に抽出・正規化するパイプラインを提示し、抽出結果の品質を公開データや事例検討を通じて評価した。得られた時系列特徴量を用いて機械学習モデルを構築し、時間情報を含めた場合と含めない場合の比較を行った。
+発表概要（日本語）:
+
+特許情報から抽出した時間情報の妥当性と医薬品データへの適用可能性を示し、その応用としての毒性予測の初期検討をポスター形式で発表しました。
+
+Abstract (English):
+
+Poster presenting the validity of temporal information extracted from patents and initial investigations into applying this information to toxicity prediction in pharmaceutical datasets.

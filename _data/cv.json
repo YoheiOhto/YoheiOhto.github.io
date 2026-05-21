@@ -1,152 +1,120 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "大戸陽平 (Yohei Ohto)",
+    "email": "oy826c60@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://yoheiohto.github.io",
+    "summary": "東京大学大学院薬学系研究科 分子薬物動態学教室 修士課程。バイオインフォマティクスと機械学習を用いた創薬データ解析（NLP・毒性予測）を専門とする。",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Tokyo",
+      "countryCode": "JP",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "YoheiOhto",
+        "url": "https://github.com/YoheiOhto"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "東京大学大学院 薬学系研究科",
+      "area": "博士課程（予定）",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "startDate": "2026-04",
+      "endDate": "",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "東京大学大学院 薬学系研究科",
+      "area": "修士課程 / 分子薬物動態学教室（指導教員: 楠原洋之）",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "startDate": "2024-04",
+      "endDate": "2026-03",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
+      "institution": "東京大学 薬学部 薬科学科",
+      "area": "学士",
+      "studyType": "",
+      "startDate": "2020-04",
+      "endDate": "2024-03",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "長崎県立長崎西高校",
+      "area": "",
       "studyType": "",
       "startDate": "",
-      "endDate": "2012",
+      "endDate": "2020-03",
       "gpa": null,
       "courses": []
     }
   ],
   "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
-  "publications": [
+  "languages": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "language": "日本語",
+      "fluency": "Native"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "language": "English",
+      "fluency": "Academic reading/writing"
     }
   ],
+  "interests": [
+    { "name": "創薬のためのバイオインフォマティクス" },
+    { "name": "文献解析への NLP 適用（自然言語処理）" },
+    { "name": "化合物反応の解析" },
+    { "name": "毒性予測とその社会実装" }
+  ],
+  "references": [],
+  "publications": [],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "特許時系列情報の医薬品への適用の妥当性とその in silico 毒性予測への応用",
+      "event": "第40回日本薬物動態学会 学生・若手企業研究者シンポジウム (PRIS 2025)",
+      "date": "2025-10-22",
+      "location": "京都市勧業館 みやこめっせ",
+      "description": "招待講演 (PSY-4)。共著: 水野忠快, 楠原洋之"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "特許情報から抽出した時間情報の妥当性とその毒性予測への応用",
+      "event": "CBI学会2025",
+      "date": "2025-10-28",
+      "location": "タワーホール船堀",
+      "description": "ポスター (P04-05)。共著: 水野忠快, 楠原洋之"
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
+      "name": "特許情報に基づく時間軸を考慮した毒性予測の検討",
+      "event": "第18回次世代を担う若手のための医療薬科学シンポジウム（YCPS18）",
+      "date": "2024-10-04",
+      "location": "金沢商工会議所",
+      "description": "口頭発表 (o-19)。共著: 水野忠快, 楠原洋之"
     },
     {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "安全性評価手法の性能評価に向けた機械学習による対照化合物選定の検討",
+      "event": "日本薬学会第144年会",
+      "date": "2024-03-30",
+      "location": "パシフィコ横浜",
+      "description": "ポスター (30P-am360S)。共著: 水野忠快, 吉開泰裕, 藤本紘美, 佐藤薫, 楠原洋之"
+    },
+    {
+      "name": "Selection of reference compound list with machine learning toward validation of safety assessment methods",
+      "event": "第15回日本安全性薬理研究会学術年会",
+      "date": "2024-02-23",
+      "location": "千里ライフサイエンスセンター",
+      "description": "ポスター (24)。共著: 水野忠快, 吉開泰裕, 藤本紘美, 佐藤薫, 楠原洋之"
     }
   ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "teaching": [],
+  "portfolio": []
 }

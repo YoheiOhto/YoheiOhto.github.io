@@ -27,15 +27,39 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.read_time %}
-            <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-          {% endif %}
-        {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
+
+          <table class="talk-meta-table">
+            {% if page.date %}
+            <tr>
+              <th><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 日付</th>
+              <td><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y/%m/%d" }}</time></td>
+            </tr>
+            {% endif %}
+            {% if page.event %}
+            <tr>
+              <th><i class="fa fa-fw fa-building" aria-hidden="true"></i> 学会</th>
+              <td>{% if page.link %}<a href="{{ page.link }}" rel="nofollow noopener noreferrer">{{ page.event }}</a>{% else %}{{ page.event }}{% endif %}</td>
+            </tr>
+            {% endif %}
+            {% if page.presentation_type %}
+            <tr>
+              <th><i class="fa fa-fw fa-chalkboard-user" aria-hidden="true"></i> 発表形態</th>
+              <td>{{ page.presentation_type }}{% if page.session %} ({{ page.session }}){% endif %}</td>
+            </tr>
+            {% endif %}
+            {% if page.location %}
+            <tr>
+              <th><i class="fa fa-fw fa-location-dot" aria-hidden="true"></i> 会場</th>
+              <td>{{ page.location }}</td>
+            </tr>
+            {% endif %}
+            {% if page.authors %}
+            <tr>
+              <th><i class="fa fa-fw fa-users" aria-hidden="true"></i> 著者</th>
+              <td>{{ page.authors | join: ", " }}</td>
+            </tr>
+            {% endif %}
+          </table>
 
         </header>
       {% endunless %}

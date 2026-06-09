@@ -51,17 +51,25 @@
 .page__content {
 
   h2 {
+    margin-top: 3em;
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
   }
 
   p, li, dl {
     font-size: 1em;
+    line-height: 1.8;
+  }
+
+  ul, ol {
+    li {
+      margin-bottom: 0.4em;
+    }
   }
 
   /* paragraph indents */
   p {
-    margin: 0 0 $indent-var;
+    margin: 0 0 1.6em;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
@@ -104,6 +112,37 @@
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
+  }
+}
+
+/*
+   Talk metadata table
+   ========================================================================== */
+
+.talk-meta-table {
+  margin: 1.2em 0 2em;
+  width: auto;
+  border: none;
+  font-size: $type-size-6;
+
+  tr {
+    border-bottom: none;
+  }
+
+  th {
+    padding: 0.35em 1em 0.35em 0;
+    font-weight: 600;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+    border: none;
+    background: none;
+    text-align: left;
+  }
+
+  td {
+    padding: 0.35em 0;
+    border: none;
+    background: none;
   }
 }
 

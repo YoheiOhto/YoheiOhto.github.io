@@ -26,17 +26,10 @@
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% if post.link %}<a href="{{ post.link }}" rel="nofollow noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true" title="External link" style="font-size:0.7em; margin-left:0.4em;"></i><span class="sr-only">External link</span></a>{% endif %}
     </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+    {% if post.date %}<p class="page__meta"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | date: '%Y/%m/%d' }}</p>{% endif %}
+    {% if post.event %}<p class="archive__item-excerpt" itemprop="description">{% if post.presentation_type %}{{ post.presentation_type }} &middot; {% endif %}{{ post.event }}{% if post.location %}, {{ post.location }}{% endif %}</p>{% endif %}
   </article>
 </div>

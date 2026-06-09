@@ -98,8 +98,9 @@
     border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid var(--global-border-color);
+      padding: 4px;
+      border: 2px solid var(--global-accent-color);
+      box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.12);
     }
   }
 }

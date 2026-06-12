@@ -76,12 +76,9 @@ redirect_from:
 **教育・指導 / Teaching**
 ------
 
-- 特になし  
-  
-<!-- 
-<ul>{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul> -->
+- 2025年度 — 東京大学薬学部 学生実習（分子薬物動態学教室）TA：ラットを用いた解剖等のin vivo実験の指導
+- 2024年度 — 東京大学薬学部 学生実習（分子薬物動態学教室）TA：ラットを用いた解剖等のin vivo実験の指導
+- 2023年度 — 東京大学薬学部 学生実習（分子薬物動態学教室）TA：Python・Excel VBAを用いたin silico実験の指導
 
 **その他（Service / Outreach）**
 ------

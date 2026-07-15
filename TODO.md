@@ -52,3 +52,16 @@
 - [x] `_pages/cv.md` — 所属・学歴・研究分野・奨学金を `about.md` に合わせて統一
 - [x] WINGS-IIW の年を 2024 に修正・BOOST NAIS を追加
 - [x] `cv.md` に高校の記録・博士課程入学予定を追加
+
+---
+
+## 🐱 GitHub Profile README 対応タスク
+
+- [ ] **GitHub設定の変更**
+  - プロフィールページの「Contribution settings」から「Private contributions」にチェックを入れてプライベートリポジトリの草を公開する
+- [ ] **個人アクセストークン（PAT）の作成**
+  - Developer settings から `repo` と `read:user` 権限を有効にしたクラシックトークン（`ghp_...`）を生成する
+- [ ] **リポジトリへのシークレット追加**
+  - プロファイル用リポジトリ（`YoheiOhto/YoheiOhto`）の Settings > Secrets > Actions に **`METRICS_TOKEN`** という名前で生成したトークンを登録する
+- [ ] **ワークフローおよびREADME.mdの配置**
+  - [PROFILE_README_GUIDE.md](file:///D:/github/0-utils/YoheiOhto.github.io/PROFILE_README_GUIDE.md) に沿って、`.github/workflows/update-profile-assets.yml` と `README.md` を `YoheiOhto/YoheiOhto` リポジトリへ配置する

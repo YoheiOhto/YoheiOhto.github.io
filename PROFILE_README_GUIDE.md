@@ -36,14 +36,14 @@ jobs:
       - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
       # 3. Metrics (Achievements & Languages & Isometric Calendar) の生成
       - name: Generate GitHub Metrics SVG
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
           base: "" # ヘッダーなどは除外してプラグインのみ表示
           config_timezone: Asia/Tokyo
@@ -72,8 +72,33 @@ jobs:
           git push
 ```
 
-> [!NOTE]
-> `GITHUB_TOKEN` で動作するため、個別の PAT（Personal Access Token）を作成・登録しなくても自動で動作します。
+> [!IMPORTANT]
+> `GITHUB_TOKEN` は権限が弱いため、実績（Achievements）の取得でエラーになり、またプライベートの貢献（Private contributions）も読み込めません。
+> 以下の **【3. 個人アクセストークン（PAT）の設定】** を必ず実行し、`${{ secrets.METRICS_TOKEN }}` を使用してください。
+
+---
+
+## 3. 個人アクセストークン（PAT）の設定手順
+
+### ① GitHub 設定でプライベート貢献を表示可能にする（必須）
+1. 自身の GitHub プロファイルページ（ `https://github.com/YoheiOhto` ）を開きます。
+2. コントリビューション（草）グラフの右上にある **「Contribution settings」** ドロップダウンをクリックします。
+3. **「Private contributions」** （プライベートリポジトリの貢献表示）にチェックを入れます。
+
+### ② 個人アクセストークン (PAT) の生成
+1. GitHub の右上アイコン -> **Settings** -> 左下にある **Developer settings** -> **Personal access tokens** -> **Tokens (classic)** を開きます。
+2. **Generate new token** -> **Generate new token (classic)** をクリックします。
+3. 以下の権限（Scope）にチェックを入れます：
+   - **`repo`** (すべての項目にチェックが入ります。プライベートリポジトリの統計取得に必須)
+   - **`read:user`** (ユーザー実績やフォロワー情報の取得に必須。これで Achievements のエラーが消えます)
+4. トークンを生成し、表示された文字列（`ghp_...`）をコピーします（一度ページを離れると再表示できません）。
+
+### ③ トークンをリポジトリに登録
+1. プロファイル用リポジトリ（ `YoheiOhto/YoheiOhto` ）の **Settings** タブを開きます。
+2. 左メニューから **Secrets and variables** -> **Actions** を選択します。
+3. **New repository secret** ボタンをクリックします。
+4. 名前に **`METRICS_TOKEN`** と入力し、値にコピーしたトークン（`ghp_...`）を貼り付けて保存します。
+
 
 ---
 

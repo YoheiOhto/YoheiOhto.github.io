@@ -45,7 +45,9 @@ Skills / 使用技術
 Publications and Preprints / 論文・プレプリント
 ------
 
-- 現在準備中
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
 
 Conferences / 学会発表
 ------

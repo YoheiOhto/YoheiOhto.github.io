@@ -4,7 +4,7 @@
     "email": "oy826c60@gmail.com",
     "phone": "",
     "website": "https://yoheiohto.github.io",
-    "summary": "東京大学大学院薬学系研究科 分子薬物動態学教室 修士課程。バイオインフォマティクスと機械学習を用いた創薬データ解析（NLP・毒性予測）を専門とする。",
+    "summary": "東京大学大学院薬学系研究科 分子薬物動態学教室 博士課程。バイオインフォマティクスと機械学習を用いた創薬データ解析（NLP・毒性予測）を専門とする。",
     "location": {
       "address": "",
       "postalCode": "",
@@ -77,7 +77,22 @@
     { "name": "毒性予測とその社会実装" }
   ],
   "references": [],
-  "publications": [],
+  "publications": [
+    {
+      "name": "Exploring Multi-Objective Trade-offs in Reference Compound Selection for Validation Studies of Toxicity Assays",
+      "publisher": "arXiv",
+      "releaseDate": "2025-05-11",
+      "url": "https://arxiv.org/abs/2505.07140",
+      "summary": "Yohei Ohto, Tadahaya Mizuno, Yasuhiro Yoshikai, Hiromi Fujimoto, Hiroyuki Kusuhara"
+    },
+    {
+      "name": "Defining and Evaluating Cell–Cell Relation Extraction from Biomedical Literature under Realistic Annotation Constraints",
+      "publisher": "bioRxiv",
+      "releaseDate": "2025-12-29",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.12.01.691726v1",
+      "summary": "Mei Yoshikawa, Tadahaya Mizuno, Yohei Ohto, Hiromi Fujimoto, Hiroyuki Kusuhara"
+    }
+  ],
   "presentations": [
     {
       "name": "特許時系列情報の医薬品への適用の妥当性とその in silico 毒性予測への応用",
@@ -115,6 +130,28 @@
       "description": "ポスター (24)。共著: 水野忠快, 吉開泰裕, 藤本紘美, 佐藤薫, 楠原洋之"
     }
   ],
-  "teaching": [],
+  "teaching": [
+    {
+      "course": "学生実習（分子薬物動態学教室）",
+      "date": "2025-04",
+      "institution": "東京大学薬学部",
+      "role": "TA",
+      "description": "ラットを用いた解剖等のin vivo実験の指導"
+    },
+    {
+      "course": "学生実習（分子薬物動態学教室）",
+      "date": "2024-04",
+      "institution": "東京大学薬学部",
+      "role": "TA",
+      "description": "ラットを用いた解剖等のin vivo実験の指導"
+    },
+    {
+      "course": "学生実習（分子薬物動態学教室）",
+      "date": "2023-04",
+      "institution": "東京大学薬学部",
+      "role": "TA",
+      "description": "Python・Excel VBAを用いたin silico実験の指導"
+    }
+  ],
   "portfolio": []
 }

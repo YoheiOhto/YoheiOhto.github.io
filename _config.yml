@@ -25,7 +25,7 @@ author:
   avatar           : "260324_yohei_master.png"
   name             : "大戸陽平 (Yohei Ohto)"
   pronouns         : "he/him"
-  bio              : "Ph.D student @ The University of Tokyo, Pharmaceutical Sciences"
+  bio              : "Ph.D. Student @ The University of Tokyo | Bioinformatics & NLP for drug discovery"
   location         : "Tokyo, Japan"
   employer         : "The University of Tokyo"
   uri              : "https://yoheiohto.github.io"
@@ -37,11 +37,11 @@ author:
   googlescholar    :
   inspire-hep      :
   impactstory      :
-  orcid            : "0009-0006-3116-3007"
+  orcid            : "https://orcid.org/0009-0006-3116-3007"
   semantic         :
   ssrn             :
   pubmed           :
-  researchgate     :
+  researchgate     : "https://www.researchgate.net/profile/Yohei-Ohto"
   scopus           :
   zotero           :
 
@@ -141,8 +141,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "260324_yohei_master.png"
+og_description           : "大戸陽平のアカデミックポートフォリオ"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -225,9 +225,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -271,15 +268,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""

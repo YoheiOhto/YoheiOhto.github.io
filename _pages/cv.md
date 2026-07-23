@@ -33,7 +33,7 @@ redirect_from:
 **職歴 / Internships & Employment**
 ------
 
-- 特になし
+- 2026年8月–9月 — 株式会社Preferred Networks（PFN） 夏期インターンシップ（ヘルスケア領域）
   
 **研究活動・関心 / Research Interests**
 ------

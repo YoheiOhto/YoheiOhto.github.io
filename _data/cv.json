@@ -20,7 +20,16 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "株式会社Preferred Networks",
+      "position": "夏期インターンシップ（ヘルスケア領域）",
+      "website": "https://www.preferred.jp/",
+      "startDate": "2026-08",
+      "endDate": "2026-09",
+      "summary": "ヘルスケア・バイオ領域におけるAI・機械学習技術の適用とデータ解析。"
+    }
+  ],
   "education": [
     {
       "institution": "東京大学大学院 薬学系研究科",

@@ -12,26 +12,17 @@ redirect_from:
 
 現在の主なテーマは、**特許文書に含まれる時間軸情報の活用**です。医薬品化合物が「いつ・どのような文脈で記録されたか」という情報を *in silico* 毒性予測に組み込み、予測精度と解釈可能性の向上を目指しています。自然言語処理（NLP）による文献マイニングと化合物構造情報を組み合わせたアプローチに取り組んでいます。
 
-共同研究や質問は気軽にご連絡ください。
+Recent Activities / 最近の主な活動
+------
+
+- **2026/08–09**: **株式会社Preferred Networks（PFN） 夏期インターンシップ（ヘルスケア領域）** 参加決定
+- **2025/12**: **bioRxiv プレプリント公開** — ["Defining and Evaluating Cell–Cell Relation Extraction from Biomedical Literature under Realistic Annotation Constraints"](https://www.biorxiv.org/content/10.1101/2025.12.01.691726v1)
+- **2025/10**: **第40回日本薬物動態学会 PRIS 2025 招待講演** — ["特許時系列情報の医薬品への適用の妥当性とその in silico 毒性予測への応用"](/talks/2025-10-22-pris-2025-patent-time-series/)（みやこめっせ, 京都）
 
 Contact / 連絡先
 ------
 - Email: [oy826c60@gmail.com](mailto:oy826c60@gmail.com)
 - GitHub: [YoheiOhto](https://github.com/YoheiOhto)
-
-Education / 学歴
-------
-
-- 2020年 — 東京大学 理科Ⅱ類 入学
-- 2024年 — 東京大学 薬学部 薬科学科 卒業
-- 2024–2026年 — 東京大学大学院 薬学系研究科 修士課程
-  - （分子薬物動態学教室, 指導: 楠原洋之）
-- 2026年– — 東京大学大学院 薬学系研究科 博士課程
-
-Experience / インターンシップ・職歴
-------
-
-- 2026年8月–9月 — 株式会社Preferred Networks（PFN） 夏期インターンシップ（ヘルスケア領域）
 
 Research Interests / 研究分野
 ------
@@ -65,13 +56,5 @@ Conferences / 学会発表
 | 2024/03/30 | 日本薬学会第144年会 | ポスター | パシフィコ横浜 | [安全性評価手法の性能評価に向けた機械学習による対照化合物選定の検討](/talks/2024-03-30-jpchem-pharm-144-poster-ml-refselection/) |
 | 2024/02/23 | 第15回日本安全性薬理研究会学術年会 | ポスター | 千里ライフサイエンスセンター | [Selection of reference compound list with machine learning toward validation of safety assessment methods](/talks/2024-02-23-safety-pharmacology-15th-poster-ref-selection/) |
 
-Activities / その他の活動
-------
-
-- 2026年（予定）— 第41回日本薬物動態学会 学生・若手企業研究者シンポジウム（PRIS 2026）オーガナイザー
-
-Scholarships / Grants / 奨学金・助成
-------
-
-- 2024 — 知能社会国際卓越大学院プログラム（WINGS-IIW）
-- 2026 — 次世代知能社会を先導する高度AI人材育成プロジェクト（BOOST NAIS）
+---
+💡 学歴・奨学金・TA実績などの詳細な経歴は [CV / 履歴書](/cv/) をご覧ください。

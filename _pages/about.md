@@ -8,14 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-東京大学大学院薬学系研究科 分子薬物動態学教室（楠原洋之 教授）の博士課程学生です。バイオインフォマティクスと機械学習を組み合わせて、創薬プロセスの加速に取り組んでいます。
+東京大学大学院薬学系研究科 分子薬物動態学教室（楠原洋之 教授）の博士課程学生です。株式会社Preferred Networks（PFN）ではパートタイムエンジニアとして勤務しています。バイオインフォマティクスと機械学習を組み合わせて、創薬プロセスの加速に取り組んでいます。
 
 現在の主なテーマは、**特許文書に含まれる時間軸情報の活用**です。医薬品化合物が「いつ・どのような文脈で記録されたか」という情報を *in silico* 毒性予測に組み込み、予測精度と解釈可能性の向上を目指しています。自然言語処理（NLP）による文献マイニングと化合物構造情報を組み合わせたアプローチに取り組んでいます。
 
 Recent Activities / 最近の主な活動
 ------
 
-- **2026/08–09**: **株式会社Preferred Networks（PFN） 夏期インターンシップ（ヘルスケア領域）** 参加決定
+- **2026/10–現在**: **株式会社Preferred Networks（PFN） パートタイムエンジニア**
+- **2026/08–09**: **株式会社Preferred Networks（PFN） 夏期インターンシップ（ヘルスケア領域）** 修了
 - **2025/12**: **bioRxiv プレプリント公開** — ["Defining and Evaluating Cell–Cell Relation Extraction from Biomedical Literature under Realistic Annotation Constraints"](https://www.biorxiv.org/content/10.1101/2025.12.01.691726v1)
 - **2025/10**: **第40回日本薬物動態学会 PRIS 2025 招待講演** — ["特許時系列情報の医薬品への適用の妥当性とその in silico 毒性予測への応用"](/talks/2025-10-22-pris-2025-patent-time-series/)（みやこめっせ, 京都）
 

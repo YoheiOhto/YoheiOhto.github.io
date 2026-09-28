@@ -33,6 +33,7 @@ redirect_from:
 **職歴 / Internships & Employment**
 ------
 
+- 2026年10月–現在 — 株式会社Preferred Networks（PFN） パートタイムエンジニア
 - 2026年8月–9月 — 株式会社Preferred Networks（PFN） 夏期インターンシップ（ヘルスケア領域）
   
 **研究活動・関心 / Research Interests**
@@ -82,4 +83,3 @@ redirect_from:
 ------
 
 - 2026年（開催予定）— 第41回日本薬物動態学会 学生・若手企業研究者シンポジウム（PRIS 2026）オーガナイザー
-

@@ -32,6 +32,8 @@ Skills / 使用技術
 - **Python**（メイン）— データ解析・機械学習・NLP（scikit-learn, PyTorch, RDKit など）
 - **C++**（基礎レベル）
 - **Web 開発**（HTML / CSS / Jekyll）— 研究室ウェブサイト制作（[水野班サイト](https://www.mizuno-group.com/)）
+- **機械学習・データ** — Hugging Face、vLLM、Elasticsearch、PubMed など
+- **研究・開発環境** — Git、Docker、Apptainer / Singularity、Slurm、FastAPI
 
 Publications and Preprints / 論文・プレプリント
 ------
@@ -45,11 +47,13 @@ Conferences / 学会発表
 
 | 日付 | 学会 | 発表形態 | 会場 | タイトル |
 |:----:|:-----|:--------:|:----|:--------|
-| 2025/10/22 | 第40回日本薬物動態学会 PRIS 2025 | 招待講演 | みやこめっせ, 京都 | [特許時系列情報の医薬品への適用の妥当性とその in silico 毒性予測への応用](/talks/2025-10-22-pris-2025-patent-time-series/) |
-| 2025/10/28–29 | CBI学会 2025 | ポスター | タワーホール船堀 | [特許情報から抽出した時間情報の妥当性とその毒性予測への応用](/talks/2025-10-28-cbi-2025-poster-patent-time/) |
-| 2024/10/04 | YCPS18 | 口頭 | 金沢商工会議所 | [特許情報に基づく時間軸を考慮した毒性予測の検討](/talks/2024-10-04-ycps18-patent-time/) |
-| 2024/03/30 | 日本薬学会第144年会 | ポスター | パシフィコ横浜 | [安全性評価手法の性能評価に向けた機械学習による対照化合物選定の検討](/talks/2024-03-30-jpchem-pharm-144-poster-ml-refselection/) |
-| 2024/02/23 | 第15回日本安全性薬理研究会学術年会 | ポスター | 千里ライフサイエンスセンター | [Selection of reference compound list with machine learning toward validation of safety assessment methods](/talks/2024-02-23-safety-pharmacology-15th-poster-ref-selection/) |
+{% for post in site.talks reversed %}| {{ post.date | date: "%Y/%m/%d" }} | {{ post.event }} | {{ post.presentation_type }} | {{ post.location }} | [{{ post.title }}]({{ post.url | relative_url }}) |
+{% endfor %}
+
+GitHub Activity / 開発活動
+------
+
+[![GitHubの年間活動を示す3Dグラフ](https://raw.githubusercontent.com/YoheiOhto/YoheiOhto/main/profile-3d-contrib/profile-green-animate.svg)](https://github.com/YoheiOhto)
 
 ---
 💡 学歴・奨学金・TA実績などの詳細な経歴は [CV / 履歴書](/cv/) をご覧ください。

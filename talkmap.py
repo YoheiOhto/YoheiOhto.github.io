@@ -10,6 +10,7 @@ import glob
 import getorg
 from geopy import Nominatim
 from geopy.exc import GeocoderTimedOut
+from geopy.location import Location
 
 # Set the default timeout, in seconds
 TIMEOUT = 5
@@ -42,14 +43,20 @@ for file in g:
 
     # Geocode the location and report the status
     try:
-        location_dict[description] = geocoder.geocode(location, timeout=TIMEOUT)
+        if data.get('latitude') is not None and data.get('longitude') is not None:
+            result = Location(location, (data['latitude'], data['longitude']), {})
+        else:
+            result = geocoder.geocode(location, timeout=TIMEOUT)
+        if result is None:
+            raise ValueError(f"No coordinates found for {location}")
+        location_dict[description] = result
         print(description, location_dict[description])
     except ValueError as ex:
-        print(f"Error: geocode failed on input {location} with message {ex}")
+        raise RuntimeError(f"Geocoding failed for {location}") from ex
     except GeocoderTimedOut as ex:
-        print(f"Error: geocode timed out on input {location} with message {ex}")
+        raise RuntimeError(f"Geocoding timed out for {location}") from ex
     except Exception as ex:
-        print(f"An unhandled exception occurred while processing input {location} with message {ex}")
+        raise RuntimeError(f"Could not process {location}") from ex
 
 # Save the map
 m = getorg.orgmap.create_map_obj()

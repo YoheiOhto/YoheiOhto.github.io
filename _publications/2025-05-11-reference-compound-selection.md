@@ -1,13 +1,15 @@
 ---
 title: "Exploring Multi-Objective Trade-offs in Reference Compound Selection for Validation Studies of Toxicity Assays"
 collection: publications
-category: manuscripts
+category: preprints
 permalink: /publication/2025-05-11-reference-compound-selection
 date: 2025-05-11
 venue: "arXiv"
 paperurl: "https://arxiv.org/abs/2505.07140"
 citation: "Yohei Ohto, Tadahaya Mizuno, Yasuhiro Yoshikai, Hiromi Fujimoto, Hiroyuki Kusuhara. (2025). Exploring Multi-Objective Trade-offs in Reference Compound Selection for Validation Studies of Toxicity Assays. <i>arXiv preprint arXiv:2505.07140</i>."
 ---
+
+[プレプリントを読む（arXiv）](https://arxiv.org/abs/2505.07140)
 
 In chemical safety assessment, validation studies rely on reference compound lists to evaluate the applicability of alternative methods prior to regulatory acceptance. These lists are expected to cover multiple aspects, including chemical structure, physicochemical properties, and toxicity profiles. In practice, however, trade-offs among these aspects are typically addressed implicitly through expert judgment, making them difficult to examine systematically. 
 

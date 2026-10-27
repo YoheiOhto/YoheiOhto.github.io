@@ -3,6 +3,9 @@ title: "Selection of reference compound list with machine learning toward valida
 date: 2024-02-23
 event: "第15回日本安全性薬理研究会学術年会 (15th Annual Meeting of the Japanese Safety Pharmacology Society)"
 location: "千里ライフサイエンスセンター"
+# 同ビル内の施設の座標（https://www.opendata-japan.com/facility_and_place_v5s?facility_id=GV-KUDN-BJ5O-BLML）
+latitude: 34.8111836
+longitude: 135.4962741
 authors:
   - "Yohei OHTO"
   - "Tadahaya MIZUNO"

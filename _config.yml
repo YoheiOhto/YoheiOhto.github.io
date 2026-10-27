@@ -85,7 +85,9 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
+  preprints:
+    title: 'Preprints / プレプリント'
   conferences:
     title: 'Conference Papers'
 
@@ -178,6 +180,12 @@ exclude:
   - Capfile
   - config
   - Dockerfile
+  - HOW_TO_EDIT.md
+  - PROFILE_README_GUIDE.md
+  - TODO.md
+  - TODO_FOR_FUTURE.md
+  - repository_map.md
+  - markdown_generator
   - Gemfile
   - Gruntfile.js
   - gulpfile.js

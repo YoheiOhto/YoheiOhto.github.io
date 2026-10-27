@@ -1,13 +1,17 @@
 ---
 title: "Defining and Evaluating Cell–Cell Relation Extraction from Biomedical Literature under Realistic Annotation Constraints"
 collection: publications
-category: manuscripts
+category: preprints
 permalink: /publication/2025-12-29-cell-cell-relation-extraction
 date: 2025-12-29
 venue: "bioRxiv"
 paperurl: "https://www.biorxiv.org/content/10.1101/2025.12.01.691726v1"
 citation: "Mei Yoshikawa, Tadahaya Mizuno, Yohei Ohto, Hiromi Fujimoto, Hiroyuki Kusuhara. (2025). Defining and Evaluating Cell–Cell Relation Extraction from Biomedical Literature under Realistic Annotation Constraints. <i>bioRxiv preprint doi:10.1101/2025.12.01.691726</i>."
 ---
+
+[プレプリントを読む（bioRxiv）](https://www.biorxiv.org/content/10.1101/2025.12.01.691726v1) · [研究リポジトリ](https://github.com/mizuno-group/cell-cell-bert) · [公開モデル（Hugging Face）](https://huggingface.co/collections/mizuno-group/cell-cell-bert)
+
+研究リポジトリにはコード公開予定の記載があります。利用可能な内容はリポジトリをご確認ください。
 
 Cell–cell communication (CCC) plays a pivotal role in physiology and pathology. Although text mining has the potential to automate the construction of comprehensive CCC databases from biomedical literature, cell–cell relation extraction (CCRE) has not been established as a standalone natural language processing (NLP) task, and lack of annotated datasets prevents systematic evaluation. 
 

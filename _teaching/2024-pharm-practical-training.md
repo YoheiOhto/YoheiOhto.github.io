@@ -4,6 +4,7 @@ collection: teaching
 type: "学部学生実習"
 permalink: /teaching/2024-pharm-practical-training
 venue: "東京大学薬学部"
+# 並び順用の日付。実施日は未記録で、実績は2024年度。
 date: 2024-01-01
 location: "東京都文京区"
 ---

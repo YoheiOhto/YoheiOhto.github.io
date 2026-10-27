@@ -15,6 +15,7 @@ redirect_from:
 Recent Activities / 最近の主な活動
 ------
 
+- **2026/11/19（開催予定）**: **第41回日本薬物動態学会 PRIS 2026 オーガナイザー・座長** — [大会プログラム](https://www.jssx41.org/En/program.html)
 - **2026/10–現在**: **株式会社Preferred Networks（PFN） パートタイムエンジニア**
 - **2026/08–09**: **株式会社Preferred Networks（PFN） 夏期インターンシップ（ヘルスケア領域）** 修了
 - **2025/12**: **bioRxiv プレプリント公開** — ["Defining and Evaluating Cell–Cell Relation Extraction from Biomedical Literature under Realistic Annotation Constraints"](https://www.biorxiv.org/content/10.1101/2025.12.01.691726v1)
@@ -24,13 +25,6 @@ Contact / 連絡先
 ------
 - Email: [oy826c60@gmail.com](mailto:oy826c60@gmail.com)
 - GitHub: [YoheiOhto](https://github.com/YoheiOhto)
-
-Research Interests / 研究分野
-------
-
-- 創薬のためのバイオインフォマティクス
-- 特許・文献への NLP（自然言語処理）の応用
-- 化合物反応・毒性の *in silico* 予測とその社会実装
 
 Skills / 使用技術
 ------

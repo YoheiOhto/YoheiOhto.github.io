@@ -61,8 +61,17 @@
       "institution": "東京大学 薬学部 薬科学科",
       "area": "学士",
       "studyType": "",
-      "startDate": "2020-04",
+      "startDate": "",
       "endDate": "2024-03",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "東京大学",
+      "area": "理科Ⅱ類",
+      "studyType": "",
+      "startDate": "2020-04",
+      "endDate": "",
       "gpa": null,
       "courses": []
     },
@@ -150,21 +159,21 @@
   "teaching": [
     {
       "course": "学生実習（分子薬物動態学教室）",
-      "date": "2025-04",
+      "date": "2025年度",
       "institution": "東京大学薬学部",
       "role": "TA",
       "description": "ラットを用いた解剖等のin vivo実験の指導"
     },
     {
       "course": "学生実習（分子薬物動態学教室）",
-      "date": "2024-04",
+      "date": "2024年度",
       "institution": "東京大学薬学部",
       "role": "TA",
       "description": "ラットを用いた解剖等のin vivo実験の指導"
     },
     {
       "course": "学生実習（分子薬物動態学教室）",
-      "date": "2023-04",
+      "date": "2023年度",
       "institution": "東京大学薬学部",
       "role": "TA",
       "description": "Python・Excel VBAを用いたin silico実験の指導"

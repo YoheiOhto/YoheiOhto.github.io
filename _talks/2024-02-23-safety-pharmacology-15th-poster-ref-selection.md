@@ -6,7 +6,7 @@ location: "千里ライフサイエンスセンター"
 authors:
   - "Yohei OHTO"
   - "Tadahaya MIZUNO"
-  - "Yasuhiro YOSHIGAI"
+  - "Yasuhiro YOSHIKAI"
   - "Hiromi FUJIMOTO"
   - "Kaoru SATO"
   - "Hiroyuki KUSUHARA"

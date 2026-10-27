@@ -6,7 +6,7 @@ location: "パシフィコ横浜"
 authors:
   - "Yohei OHTO"
   - "Tadahaya MIZUNO"
-  - "Yasuhiro YOSHIGAI"
+  - "Yasuhiro YOSHIKAI"
   - "Hiromi FUJIMOTO"
   - "Kaoru SATO"
   - "Hiroyuki KUSUHARA"

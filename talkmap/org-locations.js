@@ -18,5 +18,10 @@ var addressPoints = [
     "\u7279\u8a31\u6642\u7cfb\u5217\u60c5\u5831\u306e\u533b\u85ac\u54c1\u3078\u306e\u9069\u7528\u306e\u59a5\u5f53\u6027\u3068\u305d\u306e in silico \u6bd2\u6027\u4e88\u6e2c\u3078\u306e\u5fdc\u7528 / Validity and application of temporal information extracted from patent information<br />\u7b2c40\u56de\u65e5\u672c\u85ac\u7269\u52d5\u614b\u5b66\u4f1a\uff08The 40th Annual Meeting of Japanese Society of Pharmacokinetics and Pharmacodynamics\uff09; \u4eac\u90fd\u5e02\u52e7\u696d\u9928 \u307f\u3084\u3053\u3081\u3063\u305b, \u4eac\u90fd",
     35.0127891,
     135.7809825
+  ],
+  [
+    "Selection of reference compound list with machine learning toward validation of safety assessment methods<br />\u7b2c15\u56de\u65e5\u672c\u5b89\u5168\u6027\u85ac\u7406\u7814\u7a76\u4f1a\u5b66\u8853\u5e74\u4f1a (15th Annual Meeting of the Japanese Safety Pharmacology Society); \u5343\u91cc\u30e9\u30a4\u30d5\u30b5\u30a4\u30a8\u30f3\u30b9\u30bb\u30f3\u30bf\u30fc",
+    34.8111836,
+    135.4962741
   ]
 ];

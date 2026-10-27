@@ -36,7 +36,7 @@ for file in g:
 
     # Prepare the description
     title = data['title'].strip()
-    venue = data['venue'].strip()
+    venue = (data.get('venue') or data.get('event') or '').strip()
     location = data['location'].strip()
     description = f"{title}<br />{venue}; {location}"
 

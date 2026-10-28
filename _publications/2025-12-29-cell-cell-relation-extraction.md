@@ -13,6 +13,12 @@ citation: "Mei Yoshikawa, Tadahaya Mizuno, Yohei Ohto, Hiromi Fujimoto, Hiroyuki
 
 研究リポジトリにはコード公開予定の記載があります。利用可能な内容はリポジトリをご確認ください。
 
+### 研究概要（日本語）
+
+医学・生物学の文献から、細胞間の関係を文章ごとに抽出する課題を定義し、その評価に使う2種類の注釈付きデータを構築しました。ルールによる文献探索を使ったデータと、PubMedから直接抽出したデータを用い、複数の関係抽出モデルを比較しています。限られた注釈のもとで、この課題の難しさと評価方法を検討した研究です。
+
+### Abstract
+
 Cell–cell communication (CCC) plays a pivotal role in physiology and pathology. Although text mining has the potential to automate the construction of comprehensive CCC databases from biomedical literature, cell–cell relation extraction (CCRE) has not been established as a standalone natural language processing (NLP) task, and lack of annotated datasets prevents systematic evaluation. 
 
 In this work, we define sentence-level CCRE and construct two annotated corpora to establish evaluation benchmarks. The first, SemMedCC, contains sentences filtered by rule-based literature mining, while the second, PubCC, contains unfiltered sentences directly sampled from PubMed to evaluate robustness. Using these corpora, we evaluate various relation extraction models under realistic annotation constraints, comparing different entity indication strategies, classification heads, and language model architectures (including BioBERT, PubMedBERT, and GPT-4). 

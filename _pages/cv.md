@@ -69,8 +69,8 @@ redirect_from:
 **奨学金・助成 / Scholarships & Grants**
 ------
 
-- 2024 — 知能社会国際卓越大学院プログラム（WINGS-IIW）
-- 2026 — 次世代知能社会を先導する高度AI人材育成プロジェクト（BOOST NAIS）
+- 2024 — [知能社会国際卓越大学院プログラム（WINGS-IIW）](https://www.iiw.i.u-tokyo.ac.jp/about/)
+- 2026 — [次世代知能社会を先導する高度AI人材育成プロジェクト（BOOST NAIS）](https://spring-gx.adm.s.u-tokyo.ac.jp/ja/boost/)
 
 **教育・指導 / Teaching**
 ------
@@ -82,4 +82,4 @@ redirect_from:
 **その他（Service / Outreach）**
 ------
 
-- 2026年11月19日（開催予定）— 第41回日本薬物動態学会 学生・若手企業研究者シンポジウム（PRIS 2026）オーガナイザー・座長
+- 2026年11月19日（開催予定）— 第41回日本薬物動態学会 学生・若手企業研究者シンポジウム（PRIS 2026）オーガナイザー・座長。 [大会プログラム](https://www.jssx41.org/En/program.html)

@@ -10,6 +10,8 @@ redirect_from:
 
 東京大学大学院薬学系研究科 分子薬物動態学教室（楠原洋之 教授）の博士課程学生です。株式会社Preferred Networks（PFN）ではパートタイムエンジニアとして勤務しています。バイオインフォマティクスと機械学習を組み合わせて、創薬プロセスの加速に取り組んでいます。
 
+I am a Ph.D. student in the Laboratory of Molecular Pharmacokinetics at the University of Tokyo and a part-time engineer at Preferred Networks. My work combines bioinformatics and machine learning for drug discovery.
+
 Recent Activities / 最近の主な活動
 ------
 
@@ -36,7 +38,7 @@ Skills / 使用技術
 
 - **Python**（メイン）— データ解析・機械学習・NLP（scikit-learn, PyTorch, RDKit など）
 - **C++**（基礎レベル）
-- **Web 開発**（HTML / CSS / Jekyll）— 研究室ウェブサイト制作（[水野班サイト](https://www.mizuno-group.com/)）
+- **Web 開発**（HTML / CSS / Jekyll）— 研究室ウェブサイト制作（[楠原研究室](https://dotai.f.u-tokyo.ac.jp/index.html)、[水野班](https://www.mizuno-group.com/)）
 - **機械学習・データ** — Hugging Face、vLLM、Elasticsearch、PubMed など
 - **研究・開発環境** — Git、Docker、Apptainer / Singularity、Slurm、FastAPI
 

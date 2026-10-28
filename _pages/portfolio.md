@@ -13,11 +13,11 @@ author_profile: true
 
 技術・形式: Python、Markdown、Git。 [GitHubで見る](https://github.com/YoheiOhto/research-agent-kit)
 
-#### 水野班ウェブサイト
+#### 研究室ウェブサイト
 
-研究グループのメンバー、研究成果、活動を紹介するウェブサイトを制作しました。
+楠原研究室と水野班のメンバー、研究成果、活動を紹介するウェブサイトを制作しました。
 
-技術: HTML、CSS、Jekyll。 [サイトを見る](https://www.mizuno-group.com/)
+[楠原研究室サイト](https://dotai.f.u-tokyo.ac.jp/index.html) · [水野班サイト](https://www.mizuno-group.com/)
 
 ### 個人開発
 
@@ -25,4 +25,4 @@ author_profile: true
 
 Pokémon Sleepの手持ちを整理し、育成候補や編成を検討するためのローカルツールです。画像・動画からの読み取りや、スマートフォン向けの表示に対応しています。未検証の個体は保護する設計です。
 
-技術: Python、SQLite、macOS Vision、HTML。 [GitHubで見る](https://github.com/YoheiOhto/sleepbox-compass)
+技術: Python、SQLite、macOS Vision、HTML。 [GitHubで見る](https://github.com/YoheiOhto/sleepbox-compass) · [公開デモを見る](https://yoheiohto.github.io/sleepbox-compass/)

@@ -26,6 +26,18 @@
 {% endif %}
 <meta name="description" content="{{ seo_description }}">
 
+{% if page.url == '/' %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": {{ site.title | jsonify }},
+      "alternateName": "Yohei Ohto",
+      "url": {{ seo_url | append: '/' | jsonify }}
+    }
+  </script>
+{% endif %}
+
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
 {% if seo_author %}
   {% if seo_author.twitter %}

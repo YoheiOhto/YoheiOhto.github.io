@@ -2,6 +2,7 @@
 permalink: /
 title: "大戸 陽平 / Yohei Ohto"
 excerpt: "Ph.D Student — Bioinformatics & Drug Discovery"
+description: "大戸陽平は東京大学大学院薬学系研究科の博士課程学生。バイオインフォマティクスと機械学習を用いた創薬研究に取り組んでいます。"
 author_profile: true
 redirect_from:
   - /about/
@@ -29,9 +30,9 @@ Contact / 連絡先
 Research Interests / 研究分野
 ------
 
-- 創薬のためのバイオインフォマティクス
-- 特許・文献への NLP（自然言語処理）の応用
-- 化合物反応・毒性の *in silico* 予測とその社会実装
+- 創薬のためのバイオインフォマティクス / Bioinformatics for drug discovery
+- 特許・文献への NLP（自然言語処理）の応用 / NLP for patents and scientific literature
+- 化合物反応・毒性の *in silico* 予測とその社会実装 / Computational prediction of chemical reactions and toxicity, and its practical application
 
 Skills / 使用技術
 ------

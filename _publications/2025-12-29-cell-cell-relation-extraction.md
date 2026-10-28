@@ -2,6 +2,7 @@
 title: "Defining and Evaluating Cell–Cell Relation Extraction from Biomedical Literature under Realistic Annotation Constraints"
 collection: publications
 category: preprints
+excerpt: "生物医学文献から細胞間の関係を抽出する課題を定義し、注釈付きデータを構築して複数のモデルを評価しました。"
 permalink: /publication/2025-12-29-cell-cell-relation-extraction
 date: 2025-12-29
 venue: "bioRxiv"

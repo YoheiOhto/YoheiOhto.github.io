@@ -2,6 +2,7 @@
 title: "Exploring Multi-Objective Trade-offs in Reference Compound Selection for Validation Studies of Toxicity Assays"
 collection: publications
 category: preprints
+excerpt: "毒性評価の検証に用いる対照化合物の選定を、化学構造・物性・毒性の多様性を考慮する多目的設計問題として検討しました。"
 permalink: /publication/2025-05-11-reference-compound-selection
 date: 2025-05-11
 venue: "arXiv"

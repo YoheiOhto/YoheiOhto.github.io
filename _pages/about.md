@@ -2,6 +2,7 @@
 permalink: /
 title: "大戸 陽平 / Yohei Ohto"
 excerpt: "Ph.D Student — Bioinformatics & Drug Discovery"
+description: "大戸陽平は東京大学大学院薬学系研究科の博士課程学生。バイオインフォマティクスと機械学習を用いた創薬研究に取り組んでいます。"
 author_profile: true
 redirect_from:
   - /about/
@@ -10,7 +11,7 @@ redirect_from:
 
 東京大学大学院薬学系研究科 分子薬物動態学教室（楠原洋之 教授）の博士課程学生です。株式会社Preferred Networks（PFN）ではパートタイムエンジニアとして勤務しています。バイオインフォマティクスと機械学習を組み合わせて、創薬プロセスの加速に取り組んでいます。
 
-現在の主なテーマは、**特許文書に含まれる時間軸情報の活用**です。医薬品化合物が「いつ・どのような文脈で記録されたか」という情報を *in silico* 毒性予測に組み込み、予測精度と解釈可能性の向上を目指しています。自然言語処理（NLP）による文献マイニングと化合物構造情報を組み合わせたアプローチに取り組んでいます。
+I am a Ph.D. student in the Laboratory of Molecular Pharmacokinetics at the University of Tokyo and a part-time engineer at Preferred Networks. My work combines bioinformatics and machine learning for drug discovery.
 
 Recent Activities / 最近の主な活動
 ------
@@ -26,12 +27,19 @@ Contact / 連絡先
 - Email: [oy826c60@gmail.com](mailto:oy826c60@gmail.com)
 - GitHub: [YoheiOhto](https://github.com/YoheiOhto)
 
+Research Interests / 研究分野
+------
+
+- 創薬のためのバイオインフォマティクス / Bioinformatics for drug discovery
+- 特許・文献への NLP（自然言語処理）の応用 / NLP for patents and scientific literature
+- 化合物反応・毒性の *in silico* 予測とその社会実装 / Computational prediction of chemical reactions and toxicity, and its practical application
+
 Skills / 使用技術
 ------
 
 - **Python**（メイン）— データ解析・機械学習・NLP（scikit-learn, PyTorch, RDKit など）
 - **C++**（基礎レベル）
-- **Web 開発**（HTML / CSS / Jekyll）— 研究室ウェブサイト制作（[水野班サイト](https://www.mizuno-group.com/)）
+- **Web 開発**（HTML / CSS / Jekyll）— 研究室ウェブサイト制作（[楠原研究室](https://dotai.f.u-tokyo.ac.jp/index.html)、[水野班](https://www.mizuno-group.com/)）
 - **機械学習・データ** — Hugging Face、vLLM、Elasticsearch、PubMed など
 - **研究・開発環境** — Git、Docker、Apptainer / Singularity、Slurm、FastAPI
 

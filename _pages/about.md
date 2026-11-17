@@ -26,6 +26,7 @@ Contact / 連絡先
 ------
 - Email: [oy826c60@gmail.com](mailto:oy826c60@gmail.com)
 - GitHub: [YoheiOhto](https://github.com/YoheiOhto)
+- LinkedIn: [大戸陽平](https://www.linkedin.com/in/%E9%99%BD%E5%B9%B3-%E5%A4%A7%E6%88%B8-82ba072b2)
 
 Research Interests / 研究分野
 ------

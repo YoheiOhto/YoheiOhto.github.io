@@ -126,6 +126,13 @@
   ],
   "presentations": [
     {
+      "name": "Systematic Evaluation of Vocabulary Size in ModernBERT Models for the Pharmaceutical Domain",
+      "event": "CBI学会2026年大会",
+      "date": "2026-10-27",
+      "location": "タワーホール船堀",
+      "description": "ポスター (P05-14)"
+    },
+    {
       "name": "特許時系列情報の医薬品への適用の妥当性とその in silico 毒性予測への応用",
       "event": "第40回日本薬物動態学会 学生・若手企業研究者シンポジウム (PRIS 2025)",
       "date": "2025-10-22",

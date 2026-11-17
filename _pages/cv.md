@@ -54,7 +54,7 @@ redirect_from:
 **学会発表（Selected Talks）**
 ------
 
-主要な学会発表は以下の通りです。個別ページへのリンクは `Talks` コレクションから生成されます。
+これまでの学会発表です。タイトルから各発表の詳細ページを開けます。
 
 <ul>{% for post in site.talks reversed %}
   {% include archive-single-talk-cv.html %}

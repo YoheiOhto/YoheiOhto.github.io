@@ -17,4 +17,5 @@ Profiles / 個人プロフィール
 
 - [GitHub — YoheiOhto](https://github.com/YoheiOhto)
 - [ORCID — 大戸陽平](https://orcid.org/0009-0006-3116-3007)
+- [LinkedIn — 大戸陽平](https://www.linkedin.com/in/%E9%99%BD%E5%B9%B3-%E5%A4%A7%E6%88%B8-82ba072b2)
 - Email: [oy826c60@gmail.com](mailto:oy826c60@gmail.com)

@@ -59,9 +59,9 @@
 
 - [ ] **GitHub設定の変更**
   - プロフィールページの「Contribution settings」から「Private contributions」にチェックを入れてプライベートリポジトリの草を公開する
-- [ ] **個人アクセストークン（PAT）の作成**
+- [x] **個人アクセストークン（PAT）の作成**
   - Developer settings から `repo` と `read:user` 権限を有効にしたクラシックトークン（`ghp_...`）を生成する
-- [ ] **リポジトリへのシークレット追加**
+- [x] **リポジトリへのシークレット追加**
   - プロファイル用リポジトリ（`YoheiOhto/YoheiOhto`）の Settings > Secrets > Actions に **`METRICS_TOKEN`** という名前で生成したトークンを登録する
-- [ ] **ワークフローおよびREADME.mdの配置**
-  - [PROFILE_README_GUIDE.md](file:///D:/github/0-utils/YoheiOhto.github.io/PROFILE_README_GUIDE.md) に沿って、`.github/workflows/update-profile-assets.yml` と `README.md` を `YoheiOhto/YoheiOhto` リポジトリへ配置する
+- [x] **ワークフローおよびREADME.mdの配置**
+  - [PROFILE_README_GUIDE.md](PROFILE_README_GUIDE.md) に沿って、`.github/workflows/update-profile-assets.yml` と `README.md` を `YoheiOhto/YoheiOhto` リポジトリへ配置する

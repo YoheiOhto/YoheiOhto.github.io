@@ -154,6 +154,10 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://github.com/YoheiOhto"
+    - "https://orcid.org/0009-0006-3116-3007"
+    - "https://www.researchgate.net/profile/Yohei-Ohto"
+    - "https://www.linkedin.com/in/%E9%99%BD%E5%B9%B3-%E5%A4%A7%E6%88%B8-82ba072b2"
 
 
 # Analytics
@@ -201,6 +205,13 @@ exclude:
   - README
   - tmp
   - vendor
+  - agent
+  - CONTRIBUTING.md
+  - docker-compose.yaml
+  - scripts
+  - talkmap.py
+  - talkmap.ipynb
+  - talkmap_out.ipynb
 keep_files:
   - .git
   - .svn

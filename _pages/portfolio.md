@@ -26,7 +26,7 @@ author_profile: true
 
 研究で使うAIエージェントの設定を水野班で共有するためのリポジトリです。研究計画やコードレビューの進め方、既存コードを探すためのスキル、点検ツールやひな形をまとめています。
 
-技術・形式: Python、Markdown、Git。 [GitHubで見る](https://github.com/YoheiOhto/research-agent-kit)
+技術・形式: Python、Markdown、Git。
 
 ### 研究室ウェブサイト
 

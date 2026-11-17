@@ -104,7 +104,12 @@ session: "セッション番号"
 
 ## ローカルでプレビューする
 
+Ruby 3.2 を使う（macOS 標準の Ruby 2.6 は古すぎ、Ruby 4 では `github-pages` の依存 gem が入らない）。
+
 ```bash
+brew install ruby@3.2                       # 初回のみ
+export PATH="/opt/homebrew/opt/ruby@3.2/bin:$PATH"
+bundle install                              # 初回と Gemfile 変更時
 bundle exec jekyll serve -l -H localhost
 # → http://localhost:4000 で確認
 ```

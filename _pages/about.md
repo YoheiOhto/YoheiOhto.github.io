@@ -16,7 +16,7 @@ I am a Ph.D. student in the Laboratory of Molecular Pharmacokinetics at the Univ
 Recent Activities / 最近の主な活動
 ------
 
-- **2026/11/19（開催予定）**: **第41回日本薬物動態学会 PRIS 2026 オーガナイザー・座長** — [大会プログラム](https://www.jssx41.org/En/program.html)
+- **2026/11/19**: **第41回日本薬物動態学会 PRIS 2026 オーガナイザー・座長** — [大会プログラム](https://www.jssx41.org/En/program.html)
 - **2026/10–現在**: **株式会社Preferred Networks（PFN） パートタイムエンジニア**
 - **2026/08–09**: **株式会社Preferred Networks（PFN） 夏期インターンシップ（ヘルスケア領域）** 修了
 - **2025/12**: **bioRxiv プレプリント公開** — ["Defining and Evaluating Cell–Cell Relation Extraction from Biomedical Literature under Realistic Annotation Constraints"](https://www.biorxiv.org/content/10.1101/2025.12.01.691726v1)

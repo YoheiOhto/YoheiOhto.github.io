@@ -18,7 +18,7 @@ Recent Activities / 最近の主な活動
 
 - **2026/11/19**: **第41回日本薬物動態学会 PRIS 2026 オーガナイザー・座長** — [大会プログラム](https://www.jssx41.org/En/program.html)
 - **2026/10–現在**: **株式会社Preferred Networks（PFN） パートタイムエンジニア**
-- **2026/08–09**: **株式会社Preferred Networks（PFN） 夏期インターンシップ（ヘルスケア領域）**
+- **2026/08–09**: **株式会社Preferred Networks（PFN） 夏期インターンシップ（ライフサイエンス領域）**
 - **2025/12**: **bioRxiv プレプリント公開** — ["Defining and Evaluating Cell–Cell Relation Extraction from Biomedical Literature under Realistic Annotation Constraints"](https://www.biorxiv.org/content/10.1101/2025.12.01.691726v1)
 - **2025/10**: **第40回日本薬物動態学会 PRIS 2025 招待講演** — ["特許時系列情報の医薬品への適用の妥当性とその in silico 毒性予測への応用"](/talks/2025-10-22-pris-2025-patent-time-series/)（みやこめっせ, 京都）
 

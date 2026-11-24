@@ -36,11 +36,11 @@
     },
     {
       "company": "株式会社Preferred Networks",
-      "position": "夏期インターンシップ（ヘルスケア領域）",
+      "position": "夏期インターンシップ（ライフサイエンス領域）",
       "website": "https://www.preferred.jp/",
       "startDate": "2026-08",
       "endDate": "2026-09",
-      "summary": "ヘルスケア・バイオ領域におけるAI・機械学習技術の適用とデータ解析。"
+      "summary": "医療向け大規模言語モデルの研究開発。"
     }
   ],
   "education": [
